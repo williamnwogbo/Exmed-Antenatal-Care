@@ -308,13 +308,13 @@ hr { border:none; border-bottom:1px double #F5F5F5; }
 .person-mike     { background-image:url(img/users/3.jpg); width:110px; height:110px; background-size: 160px 110px;
 				   border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%; background-position:center; }
 
-.person-lilian  	 { background-image:url(img/users/3.png); width:110px; height:110px; background-size: 160px 110px;
+.person-lilian  	 { background-image:url(img/users/3.jpg); width:110px; height:110px; background-size: 160px 110px;
 				   border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%; background-position:center; }
-.person-george  	 { background-image:url(img/users/4.png); width:110px; height:110px; background-size: 160px 110px;
+.person-george  	 { background-image:url(img/users/4.jpg); width:110px; height:110px; background-size: 160px 110px;
 				   border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%; background-position:center; }
-.person-buchi 	 { background-image:url(img/users/5.png); width:110px; height:110px; background-size: 160px 110px;
+.person-buchi 	 { background-image:url(img/users/5.jpg); width:110px; height:110px; background-size: 160px 110px;
 				   border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%; background-position:center; }
-.person-olaoluwa 	 { background-image:url(img/users/6.png); width:110px; height:110px; background-size: 160px 110px;
+.person-olaoluwa 	 { background-image:url(img/users/6.jpg); width:110px; height:110px; background-size: 160px 110px;
 				   border-radius:50%; -moz-border-radius:50%; -ms-border-radius:50%;-o-border-radius:50%;-webkit-border-radius:50%; background-position:center; }
 
 .name	{ color:#169CEB; font-size:28px; font-weight:300; font-family: 'Roboto Condensed', sans-serif; }
