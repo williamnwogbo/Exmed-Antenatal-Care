@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  	<title>Exmed:.Antenatal Care</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link href='fonts/fontface1.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/fontface2.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/transit.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+            
+    <!-- GALLERY START -->
+	<script type="text/javascript" src="lib/klass.min.js"></script>
+    <script type="text/javascript" src="lib/code.photoswipe-3.0.5.min.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+   
+   	 <!-- NAVIGATION START --> 
+    <script src="js/navigation/modernizr.custom.js"></script>
+
+    <!-- COUNTDOWN START -->
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+    <!-- JQUERY PLUGINS -->
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>	
+
+    <!-- SLIDER START -->
+	<script src="js/responsiveslides.min.js"></script>
+    <script type="text/javascript"> $(function() { $(".rslides").responsiveSlides(); }); </script>
+	<script type="text/javascript">
+	var storage = window.localStorage;
+    $(document).ready(function(){
+      console.log('Inside document.ready');
+      initTodoList();
+	  var name=storage.key(0);
+	  if(name=="ripple-last-load" || name=="null"){
+	  $("#hed").html("Welcome Anonymus! ");
+	  }else{
+	  $("#hed").html("Welcome "+ storage.key(0));
+	   $("#weeks").html('<p>You have successfully registered yourself.Welcome to Exmed:.Antenatal Care</p>');
+	   var weeks=storage.getItem(storage.key(0));
+	    $("#he").html('You are ' +weeks+ ' pregnant');
+	   $(".menu").html('<li> <a class="" href="'+weeks+'.html"> <div class="nav-icon nav-icon-portfolio"></div> '+ weeks +' </a></li>');
+	  }
+	 
+	  
+      $("#clearStorage").click(function(){
+        console.log('Entering clearstorage');
+        storage.clear();
+      
+		 $("#weeks").html('<table><tr><td><label for="name">Name:</label></td><td><input type="text"  id="name"  /></td></tr><tr><td><label for="name">Weeks:</label></td><td><select name="weeks" id="weu"><option value="4-8weeks">4-8weeks</option><option value="9-12weeks">9-12weeks</option><option value="13-16 weeks">13-16 weeks</option><option value="17-20 weeks">17-20 weeks</option><option value="21-24 weeks">21-24 weeks</option><option value="25-28 weeks">25-28 weeks</option><option value="29-32 weeks">29-32 weeks</option><option value="33-36 weeks">33-36 weeks</option><option value="37-40 weeks">37-40 weeks</option><option value="40 weeks plus">40 weeks plus</option></select></td></tr><tr><td><input type="submit" value="Register" id="send" class="submitButton" onclick="add_item()" /></td></tr></table>');
+       $("#hed").html("Welcome Anonymus! ");
+	   console.log('Exiting clearstorage');
+      });
+    });
+	  function initTodoList(){
+      console.log("Entering initTodoList " + storage.length);
+      for(var i = 0; i < storage.length; i++){
+        var key = storage.key(i);
+        var value = storage.getItem(key);
+        createToDoListItem(key,value);
+      }
+    }  
+    function createToDoListItem(key, value){
+      var html = '';
+      console.log('Appending html ' + html)
+     
+    }</script>
+</head>
+<body> 
+
+     	<div id="st-container" class="st-container">
+            <nav class="st-menu st-effect-9" id="menu-9">
+				<div class="logo"></div> 
+				<ul class="menu">
+					
+				</ul>
+
+				
+				<ul class="menu_bonus">
+				<li> <a class="" href="index.html"> <div class="nav-icon nav-icon-home"></div> Home </a></li>
+				<li> <a class="" href="index3110.html?p=aboutus"> <div class="nav-icon nav-icon-aboutus"></div> About us </a></li>
+                <li> <a class="" href="indexf763.html?p=contact"> <div class="nav-icon nav-icon-contact"></div> Contact </a></li>
+				
+				</ul>
+			</nav>			
+	
+    <div class="st-pusher">
+		<div class="st-content">
+			<div class="st-content-inner">
+    
+<div id="page-content">
+	  <div id="page-inside">  
+      
+      <div id="header-content">
+	<div id="header-content-left" class="clearfix"> <div id="navigation_content"> <div id="st-trigger-effects" class="column"> <button data-effect="st-effect-9" id="i-nav"></button> </div> </div> </div>
+	<div id="header-content-mid" class="clearfix"> <div class="person-header-team"></div> </div>
+    <div id="header-content-right" class="clearfix"> <a href="index96ad.html?p=reglogin"> <div id="i-logreg"></div> </a> </div>
+		<h1> Our Team </h1>   
+        
+   
+</div>
+
+    <div class="bubble aboutus-newuser"></div>
+
+<div class="block clearfix">
+	<div class="aboutus-left">
+        <div class="person-john"></div>
+	</div>
+    
+    <div class="aboutus-right">
+        <div class="name">William Nwogbo</div>
+        <div class="job"> Web and mobile Developer</div>
+        <p class="iperson"> William’s experience with the medical sector started in November 29th 2009 when an unforeseen event triggered the will to bring efficiency to the medical sector. William is currently a graduating student of computer science with an aim to specialize in Biotechnology in University of Nigeria Nsukka, Enugu state, Nigeria, who derives joy in developing technologies to solve problem.  </p>
+	</div>
+
+    <div class="aboutus-bottom">
+      
+        <div class="aboutus-bottom-fb"> <a href="http://www.facebook.com/william.nwogbo"> Facebook </a> </div>
+       
+    </div>
+</div>
+
+<div class="block clearfix">
+	<div class="aboutus-left">
+        <div class="person-lilian"></div>
+	</div>
+    
+    <div class="aboutus-right">
+        <div class="name">Okorie Lilian</div>
+        <div class="job"> Web Developer and Analyst</div>
+        <p class="iperson"> With the experiences gained in the health sector, I see a world where everything in our hospital is based on technology; I am a developer with the aim of improving the health sector. </p>
+	</div>
+
+    <div class="aboutus-bottom">
+      
+        <div class="aboutus-bottom-fb"> <a href="http://www.facebook.com/william.nwogbo"> Facebook </a> </div>
+       
+    </div>
+</div>
+
+<div class="block clearfix">
+	<div class="aboutus-left">
+        <div class="person-george"></div>
+	</div>
+    
+    <div class="aboutus-right">
+        <div class="name">Onwuasoanya  George</div>
+        <div class="job">Android App Developer</div>
+        <p class="iperson">: I am a developer that has dedicated his skills to saving humanity, improve the medical sector by developing apps that would enable patient produce better result. I have been developing mobile apps since 2012 and web apps since 2010, I intend to make  the medical field a master piece with concepts, ideas and apps  </p></div>
+
+    <div class="aboutus-bottom">
+      
+        <div class="aboutus-bottom-fb"> <a href="https://m.facebook.com/profile.php?id=100000242426861"> Facebook </a> </div>
+       
+    </div>
+</div>
+<div class="block clearfix">
+	<div class="aboutus-left">
+        <div class="person-olaoluwa"></div>
+	</div>
+    
+    <div class="aboutus-right">
+        <div class="name">Olaoluwa Usman</div>
+        <div class="job"> Web Developer and  Marketing Strategies</div>
+        <p class="iperson">My dream as a programmer has always been to solve problems, knowing due to statistics that millions of people die today because of lack appropriate information quakes my heart and I intend to use my skills and technology to stop this problem.</p>
+	</div>
+
+    <div class="aboutus-bottom">
+      
+        <div class="aboutus-bottom-fb"> <a href="https://m.facebook.com/profile.php?id=100000064886784"> Facebook </a> </div>
+       
+    </div>
+</div>
+<div class="block clearfix">
+	<div class="aboutus-left">
+        <div class="person-buchi"></div>
+	</div>
+    
+    <div class="aboutus-right">
+        <div class="name">Onyebuchi Emeziem</div>
+        <div class="job"> Student Doctor</div>
+        <p class="iperson">My love and passion for the medical field started from age little, where my dream’s then were to find the cure of some diseases, as a graduating student doctor of Veterinary medicine, I can see through the problems of the medical field and I want to bring an end to it.  </p>
+	</div>
+
+    <div class="aboutus-bottom">
+      
+        <div class="aboutus-bottom-fb"> <a href="https://m.facebook.com/onyebuchi.emeziem?fref=ts"> Facebook </a> </div>
+       
+    </div>
+</div>
+
+  
+
+
+
+	</div>
+</div>
+
+	</div>
+		</div>
+
+		<div class="clr"></div>
+
+		<div id="foo" class="clearfix">
+			<div id="foo_option">
+				<div id="social">
+					<a href="https://www.facebook.com/dogelexmed"> <img src="img/social/facebook.png"> </a>				
+				<a href="mailto:dogeltech@outlook.com"> <img src="img/social/google.png"> </a>
+					<a href="https://www.youtube.com/watch?v=su4pgwM26Dc&feature=youtu.be"> <img src="img/social/digg.png"> </a>
+					<a href="https://www.youtube.com/watch?v=su4pgwM26Dc&feature=youtu.be"> <img src="img/social/youtube.png"> </a>
+				</div>
+			</div>
+
+			<div id="foo_copyright"> Designed by Dogel Technologies </div>
+		</div>
+
+			</div>
+
+    <script src="js/navigation/classie.js"></script>
+	<script src="js/navigation/sidebarEffects.js"></script>
+
+</body>
+</html>

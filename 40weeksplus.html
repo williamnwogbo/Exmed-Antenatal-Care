@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  	<title>Exmed:.Antenatal Care</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link href='fonts/fontface1.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/fontface2.css' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/transit.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+            
+    <!-- GALLERY START -->
+	<script type="text/javascript" src="lib/klass.min.js"></script>
+    <script type="text/javascript" src="lib/code.photoswipe-3.0.5.min.js"></script>
+    <script type="text/javascript" src="js/gallery.js"></script>
+   
+   	 <!-- NAVIGATION START --> 
+    <script src="js/navigation/modernizr.custom.js"></script>
+
+    <!-- COUNTDOWN START -->
+    <script type="text/javascript" src="js/jquery.countdown.js"></script>
+
+    <!-- JQUERY PLUGINS -->
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>	
+
+    <!-- SLIDER START -->
+	<script src="js/responsiveslides.min.js"></script>
+    <script type="text/javascript"> $(function() { $(".rslides").responsiveSlides(); }); </script>
+	<script type="text/javascript">
+	var storage = window.localStorage;
+    $(document).ready(function(){
+      console.log('Inside document.ready');
+      initTodoList();
+	  var name=storage.key(0);
+	  if(name=="ripple-last-load" || name=="null"){
+	  $("#hed").html("Welcome Anonymus! ");
+	  }else{
+	  
+	  $("#hed").html("Hello "+storage.key(0));
+	   $("#weeks").html('<p>You have successfully registered yourself.Welcome to Exmed:.Antenatal Care</p>');
+	   var weeks=storage.getItem(storage.key(0));
+	    $("#he").html('You are ' +weeks+ ' pregnant');
+	   $(".menu").html('<li> <a class="" href="'+weeks+'.html"> <div class="nav-icon nav-icon-portfolio"></div> '+ weeks +' </a></li>');
+	  }
+	 
+	  
+      $("#clearStorage").click(function(){
+        console.log('Entering clearstorage');
+        storage.clear();
+      
+		 $("#weeks").html('<table><tr><td><label for="name">Name:</label></td><td><input type="text"  id="name"  /></td></tr><tr><td><label for="name">Weeks:</label></td><td><select name="weeks" id="weu"><option value="4-8weeks">4-8weeks</option><option value="9-12weeks">9-12weeks</option><option value="13-16 weeks">13-16 weeks</option><option value="17-20 weeks">17-20 weeks</option><option value="21-24 weeks">21-24 weeks</option><option value="25-28 weeks">25-28 weeks</option><option value="29-32 weeks">29-32 weeks</option><option value="33-36 weeks">33-36 weeks</option><option value="37-40 weeks">37-40 weeks</option><option value="40 weeks plus">40 weeks plus</option></select></td></tr><tr><td><input type="submit" value="Register" id="send" class="submitButton" onclick="add_item()" /></td></tr></table>');
+       $("#hed").html("Welcome Anonymus! ");
+	   console.log('Exiting clearstorage');
+      });
+    });
+	  function initTodoList(){
+      console.log("Entering initTodoList " + storage.length);
+      for(var i = 0; i < storage.length; i++){
+        var key = storage.key(i);
+        var value = storage.getItem(key);
+        createToDoListItem(key,value);
+      }
+    }  
+    function createToDoListItem(key, value){
+      var html = '';
+      console.log('Appending html ' + html)
+     
+    }</script>
+</head>
+<body> 
+
+     	<div id="st-container" class="st-container">
+            <nav class="st-menu st-effect-9" id="menu-9">
+				<div class="logo"></div> 
+				<ul class="menu">
+					
+				</ul>
+
+				
+				<ul class="menu_bonus">
+				<li> <a class="" href="index.html"> <div class="nav-icon nav-icon-home"></div> Home </a></li>
+				<li> <a class="" href="index3110.html?p=aboutus"> <div class="nav-icon nav-icon-aboutus"></div> About us </a></li>
+                <li> <a class="" href="indexf763.html?p=contact"> <div class="nav-icon nav-icon-contact"></div> Contact </a></li>
+				
+				</ul>
+			</nav>			
+	
+    <div class="st-pusher">
+		<div class="st-content">
+			<div class="st-content-inner">
+    
+<div id="page-content">
+	  <div id="page-inside">  
+      
+      <div id="header-content">
+	<div id="header-content-left" class="clearfix"> <div id="navigation_content"> <div id="st-trigger-effects" class="column"> <button data-effect="st-effect-9" id="i-nav"></button> </div> </div> </div>
+	<div id="header-content-mid" class="clearfix"> <div class="person-header"></div> </div>
+    <div id="header-content-right" class="clearfix"> <a href="index96ad.html?p=reglogin"> <div id="i-logreg"></div> </a> </div>
+		<h1 id="hed"> </h1>   
+        
+</div>
+
+<div class="blog-post">
+    <img src="img/40.jpg" class="blogIMG" />
+        <h1> If your baby is overdue</h1>
+        <p> 
+
+Pregnancy normally lasts about 40 weeks (that's around 280 days from the first day of your last period). Most women go into labour a week either side of this date, but some women go overdue.
+If your labour doesn't start by the time you are 41 weeks pregnant, your midwife will offer you a 'membrane sweep'. This involves having a vaginal (internal) examination that stimulates the cervix (neck of your womb) to produce hormones that may trigger natural labour. You don't have to have this – you can discuss it with your midwife.
+
+If your labour still doesn't start naturally after this, your midwife or doctor will suggest a date to have your labour induced (started off).
+If you don't want your labour to be induced and your pregnancy continues to 42 weeks or beyond, you and your baby will be monitored.
+Your midwife or doctor will check that both you and your baby are healthy by offering you ultrasound scans and checking your baby's movement and heartbeat. If there are any concerns about your baby, your doctor will suggest that labour is induced.
+Induction is always planned in advance, so you'll be able to discuss the advantages and disadvantages with your doctor and midwife, and find out why they think your labour should be induced. It's your choice whether to have your labour induced or not.</p>
+		 <h1>Over 42 weeks pregnant</h1>
+<p>Most women go into labour spontaneously by the time they are 42 weeks pregnant. If your pregnancy lasts longer than 42 weeks and you decide not to have your labour induced, you should be offered increased monitoring to check your baby's wellbeing.
+There is a higher risk of stillbirth if you go over 42 weeks pregnant, although most babies remain healthy. At the moment there is no way to reliably predict which babies are at increased risk of stillbirth, so induction is offered to all women who don't go into labour by 42 weeks.
+Having induction of labour after the date your baby is due does not increase the chance (risk) of caesarean section. There is some evidence that it may slightly reduce the chance of having a caesarean section.
+</p>
+</div>
+</div>
+
+	</div>
+		</div>
+
+		<div class="clr"></div>
+
+		<div id="foo" class="clearfix">
+			<div id="foo_option">
+				<div id="social">
+					<a href="https://www.facebook.com/dogelexmed"> <img src="img/social/facebook.png"> </a>				
+				<a href="mailto:dogeltech@outlook.com"> <img src="img/social/google.png"> </a>
+					<a href="https://www.youtube.com/watch?v=su4pgwM26Dc&feature=youtu.be"> <img src="img/social/digg.png"> </a>
+					<a href="https://www.youtube.com/watch?v=su4pgwM26Dc&feature=youtu.be"> <img src="img/social/youtube.png"> </a>
+				</div>
+			</div>
+
+			<div id="foo_copyright"> Designed by Dogel Technologies </div>
+		</div>
+
+			</div>
+
+    <script src="js/navigation/classie.js"></script>
+	<script src="js/navigation/sidebarEffects.js"></script>
+
+</body>
+</html>
