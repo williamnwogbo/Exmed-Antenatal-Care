@@ -35,7 +35,7 @@
       console.log('Inside document.ready');
       initTodoList();
 	  var name=storage.key(0);
-	  if(name=="ripple-last-load" || name=="null"){
+	  if(name=="ripple-last-load" || name==null){
 	  $("#hed").html("Welcome Anonymus! ");
 	  window.location="index96ad.html";
 	  }else{
@@ -99,7 +99,8 @@
     <div id="header-content-right" class="clearfix"> <a href="index96ad.html?p=reglogin"> <div id="i-logreg"></div> </a> </div>
 		<h1>  </h1>   
         
-    <div id="header-info"> <h2>We care about mother and child</h2> </div>
+    <div id="header-info"> <h2>We care about mother and child</h2>
+	</div>
 </div>
         
     <div class="block clearfix">

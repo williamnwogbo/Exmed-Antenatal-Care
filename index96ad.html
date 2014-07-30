@@ -35,11 +35,13 @@
       console.log('Inside document.ready');
       initTodoList();
 	  var name=storage.key(0);
-	  if(name=="ripple-last-load" || name=="null" || name="NULL" || name="Null"){
+	  var test=storage.getItem(name);
+	  
+	  if(name=="ripple-last-load" || name==null){
 	  $("#hed").html("Welcome Anonymus! ");
 	  }else{
 	  $("#hed").html("Welcome "+ storage.key(0));
-	   $("#weeks").html('<p>You have successfully registered yourself.Welcome to Exmed:.Antenatal Care</p>');
+	   $("#weeks").html('<p>You have successfully registered yourself.Welcome to Exmed:.Antenatal Care </br> <a class="submitButton" style="width:55%" href="'+storage.getItem(storage.key(0))+'.html">Access Your Information Information</a></p>');
 	   var weeks=storage.getItem(storage.key(0));
 	    $("#he").html('You are ' +weeks+ ' pregnant');
 	   $(".menu").html('<li> <a class="" href="'+weeks+'.html"> <div class="nav-icon nav-icon-portfolio"></div> '+ weeks +' </a></li>');
@@ -60,7 +62,7 @@
       var value = $('#weu').val();
 	  var key =$('#name').val();
       storage.setItem(key,value);
-	   $("#weeks").html('<p>You have successfully registered yourself.Welcome to Exmed:.Antenatal Care</p>');
+	   $("#weeks").html('<p>You have successfully registered yourself.Welcome to Exmed:.Antenatal Care.</br> <a class="submitButton" style="width:55%" href="'+storage.getItem(storage.key(0))+'.html">Access your Information</a> </p>');
 	   $("#hed").html("Welcome "+ storage.key(0));
 	    $("#he").html('You are ' +value+ ' pregnant');
 		 $(".menu").html('<li> <a class="" href="'+value+'.html"> <div class="nav-icon nav-icon-portfolio"></div> '+ value +' </a></li>');
